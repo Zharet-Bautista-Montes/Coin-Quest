@@ -2687,7 +2687,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba6c6087bcf1c494ea6b92e2199f87fa, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cf200183367dea7408bb4d2f326d02e6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3548,7 +3548,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.70175, y: 0.0000033379}
-  m_SizeDelta: {x: 328.27, y: 179.87}
+  m_SizeDelta: {x: 330, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1237492721
 MonoBehaviour:
@@ -3570,9 +3570,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Collect all the coins to get points and get to the flag to win the level.
-    Try to make it in the least possible time, and if you get hurt three times, you
-    will have to start again. \nBest luck!"
+  m_text: "Collect all the coins and squash the enemies to get points, get to the
+    flag to win the level! \nTry to make it in the least possible time, but if you
+    get hurt three times, you will have to start again. \nBest luck!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -4930,7 +4930,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "-Liz Carol Molina Rinc\xF3n\n-Cristhian Camilo Britel S\xE1nchez\n-Zharet
-    Bautista Montes\n\nDesarrollo de Videojuegos - Nivel B\xE1sico\n30 de Julio de
+    Bautista Montes\n\nDesarrollo de Videojuegos - Nivel B\xE1sico\n5 de Agosto de
     2023"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -5390,7 +5390,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 186.3, y: -10.824}
-  m_SizeDelta: {x: 329.678, y: 150.19}
+  m_SizeDelta: {x: 330, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905996380
 MonoBehaviour:

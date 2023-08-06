@@ -16,7 +16,7 @@ public class Fruit: MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             sonido.Play();
-            ScoreManager.SumScore();
+            ScoreManager.SumScore(1);
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
             GetComponent<SpriteRenderer>().enabled = false;
             Destroy(gameObject, 0.5f);

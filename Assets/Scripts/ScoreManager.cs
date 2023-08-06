@@ -13,9 +13,9 @@ public class ScoreManager : MonoBehaviour
 	public TMP_Text scoreText;
 	private static int currentIndex;
 	
-    public static void SumScore()
+    public static void SumScore(int points)
     {
-        scoreList[currentIndex] += 1;
+        scoreList[currentIndex] += points;
     }
 	
 	public static void resetScore()
@@ -43,7 +43,12 @@ public class ScoreManager : MonoBehaviour
 	{
 		currentIndex = SceneManager.GetActiveScene().buildIndex;
 		if(currentIndex < scoreList.Length)
-			scoreText.text = "X " + scoreList[currentIndex];
+		{
+            int levelScore = scoreList[currentIndex];
+			if(levelScore < 10)
+				scoreText.text = "X " + levelScore;
+			else scoreText.text = "X" + levelScore;
+        }
 		else scoreText.text = "Final Score: " + getFinalScore();
 	}
 }

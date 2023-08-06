@@ -67,7 +67,7 @@ public class PlayerMove : MonoBehaviour
             ani.SetBool("Jump", false);
             ani.SetBool("DJump", false);
             doubleJump = true;
-            if (Input.GetKeyDown("space"))
+            if (Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.W))
             {
                 gameObject.GetComponent<AudioSource>().Play();
                 rb2d.velocity = new Vector2(rb2d.velocity.x, jumping);
@@ -76,7 +76,7 @@ public class PlayerMove : MonoBehaviour
         else if (DetectGround.checkGround == false)
         {
             ani.SetBool("Jump", true);
-            if (doubleJump && Input.GetKeyDown("space"))
+            if (doubleJump && (Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.W)))
             {
                 gameObject.GetComponent<AudioSource>().Play();
                 ani.SetBool("DJump", true);

@@ -8,6 +8,7 @@ public class Weak : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            ScoreManager.SumScore(6);
             Destroy(transform.parent.gameObject);
         }
     }
